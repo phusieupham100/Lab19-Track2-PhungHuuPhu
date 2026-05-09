@@ -2,12 +2,12 @@
 
 > English version: [`BONUS-CHALLENGE-EN.md`](BONUS-CHALLENGE-EN.md)
 
-**Loại:** Brainstorming + creative session — tách khỏi lab chính, hoàn toàn tự nguyện.
+**Loại:** Brainstorming + creative session — tách khỏi lab chính và hoàn toàn tự nguyện.
 **Đối tượng:** Bạn vào vai *AI engineer thiết kế hệ thống memory* cho 1 trợ lý cá nhân.
 **Effort target:** 4–6 giờ tập trung. Khuyến khích pair (2–3 người), brainstorm trước, code sau.
 **Vibe coding khuyến khích:** code boilerplate AI lo, *architecture decisions* bạn tự nghĩ + viết.
 
-Bonus dành cho học viên muốn vượt qua rote deliverable và xây dựng thứ
+Bonus dành cho học viên muốn vượt qua kiểu làm bài theo checklist và xây dựng thứ
 *creative + showcase-able*. **Không có điểm số chính thức** (20 pts bonus
 optional trên `rubric.md`); phần thưởng thực sự là feedback bằng văn bản từ
 giảng viên về *judgment* của bạn, và 1 portfolio piece.
@@ -57,7 +57,7 @@ Phải có:
      Sub-second (streaming Push API) vs 5-min (batch refresh) vs daily?
      Cho 3 use cases khác nhau.
 
-- **Loại bỏ tỉ thiệu 1 lựa chọn sai với lý do** — kiểu "Tôi xem xét X nhưng
+- **Loại bỏ tối thiểu 1 lựa chọn sai với lý do** — kiểu "Tôi xem xét X nhưng
   chọn Y vì Z". Ví dụ: "Tôi xem xét lưu episodic trong feature store
   (như embedding feature view) nhưng tách riêng vào vector store vì
   re-index cycle khác hẳn (memory mới mỗi giờ vs profile theo tuần)".

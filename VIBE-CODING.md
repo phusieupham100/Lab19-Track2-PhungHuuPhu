@@ -23,7 +23,7 @@ Vibe coding ≠ "copy-paste từ ChatGPT". Vibe coding là một *workflow*:
    commit hoặc rollback
 ```
 
-Bỏ qua bất kỳ bước nào → vibe coding biến thành "gambling with code".
+Bỏ qua bất kỳ bước nào → vibe coding sẽ thành "gambling with code".
 
 ---
 
@@ -57,8 +57,8 @@ Constraints:
   - No external API calls (in-memory only)
 ```
 
-LLM viết code khớp spec. Bạn review diff để verify từng dòng implement
-đúng spec. Spec mơ hồ → code mơ hồ → debug 1 giờ.
+LLM viết code theo spec. Bạn review diff để verify từng dòng implement
+đúng spec. Spec mơ hồ → code mơ hồ → mất hàng giờ để debug.
 
 ### Test-Driven Development (TDD) cho LLM era
 
@@ -133,8 +133,8 @@ Step 2: Bạn cross-check answer với reference (paper / docs / textbook).
 Step 3: "Implement search_hybrid(...) per the formula above. rank is 1-based, k=60."
 ```
 
-Nhiều AI hallucination viết `1/rank` thay vì `1/(k+rank)`, hoặc rank
-0-based — silent regression khó debug.
+Nhiều AI sẽ hallucinate thành `1/rank` thay vì `1/(k+rank)`, hoặc dùng rank
+0-based — đây là kiểu silent regression rất khó debug.
 
 ### 3. Tests trước, code sau (TDD)
 
@@ -170,7 +170,7 @@ Vòng 3: "Implement approach #2 + write test."
 Vòng 4: Bạn review diff line-by-line.
 ```
 
-Đừng skip vòng 1 — bạn sẽ stuck trong local optimum mà LLM nghĩ ra đầu tiên.
+Đừng skip vòng 1 — nếu không, bạn dễ bị kẹt ở local optimum đầu tiên LLM đưa ra.
 
 ---
 
@@ -192,7 +192,7 @@ review diff dễ. Ba CLI tool nổi bật 2026:
 - Commit + push + revert mà không rời context
 
 **Project conventions file** — commit 1 file ở repo root để CLI tool tự
-đọc + respect, giảm prompt boilerplate:
+đọc + tuân theo, giúp giảm prompt boilerplate:
 - `CLAUDE.md` — Claude Code
 - `AGENTS.md` — Codex CLI, OpenCode (de-facto standard 2025+)
 
